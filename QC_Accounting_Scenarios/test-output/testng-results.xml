@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="20" total="24" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4770541" started-at="2020-09-24T06:00:55Z" finished-at="2020-09-24T07:20:26Z">
+    <groups>
+      <group name="Ratikanta_LOC_Accounting_1">
+        <method signature="QCStore.QC_LOC_Payment_Default_DefaultPayment_Repo_RefinanceWithDisb_Txn_Testdata()[pri:23, instance:tests.QCStore@5f9d02cb]" name="QC_LOC_Payment_Default_DefaultPayment_Repo_RefinanceWithDisb_Txn_Testdata" class="tests.QCStore"/>
+        <method signature="QCStore.QC_LOC_Payment_Default_Repo_RefinanceWithDisb_Txn_Testdata()[pri:22, instance:tests.QCStore@5f9d02cb]" name="QC_LOC_Payment_Default_Repo_RefinanceWithDisb_Txn_Testdata" class="tests.QCStore"/>
+        <method signature="QCStore.QC_LOC_Payment_Default_Repo_Refinance_Txn_Testdata()[pri:21, instance:tests.QCStore@5f9d02cb]" name="QC_LOC_Payment_Default_Repo_Refinance_Txn_Testdata" class="tests.QCStore"/>
+        <method signature="QCStore.QC_LOC_SignatureLoan_Runtwostatements_WaiveFee_CheckWaiveFeein2997Store_Txn_Testdata()[pri:24, instance:tests.QCStore@5f9d02cb]" name="QC_LOC_SignatureLoan_Runtwostatements_WaiveFee_CheckWaiveFeein2997Store_Txn_Testdata" class="tests.QCStore"/>
+      </group> <!-- Ratikanta_LOC_Accounting_1 -->
+    </groups>
+    <test name="Test" duration-ms="4770541" started-at="2020-09-24T06:00:55Z" finished-at="2020-09-24T07:20:26Z">
+      <class name="tests.QCStore">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.QCStore@5f9d02cb]" name="setup" is-config="true" duration-ms="81" started-at="2020-09-24T06:00:55Z" finished-at="2020-09-24T06:00:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="killProcess()[pri:0, instance:tests.QCStore@5f9d02cb]" name="killProcess" is-config="true" duration-ms="5010" started-at="2020-09-24T06:00:55Z" finished-at="2020-09-24T06:01:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killProcess -->
+        <test-method status="PASS" signature="QC_LOC_Payment_Default_Repo_Refinance_Txn_Testdata()[pri:21, instance:tests.QCStore@5f9d02cb]" name="QC_LOC_Payment_Default_Repo_Refinance_Txn_Testdata" duration-ms="1443095" started-at="2020-09-24T06:01:00Z" finished-at="2020-09-24T06:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QC_LOC_Payment_Default_Repo_Refinance_Txn_Testdata -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.QCStore@5f9d02cb]" name="getResult" is-config="true" duration-ms="719" started-at="2020-09-24T06:25:03Z" finished-at="2020-09-24T06:25:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=QC_LOC_Payment_Default_Repo_Refinance_Txn_Testdata status=SUCCESS method=QCStore.QC_LOC_Payment_Default_Repo_Refinance_Txn_Testdata()[pri:21, instance:tests.QCStore@5f9d02cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:tests.QCStore@5f9d02cb]" name="endReport" is-config="true" duration-ms="0" started-at="2020-09-24T06:25:03Z" finished-at="2020-09-24T06:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="killProcess()[pri:0, instance:tests.QCStore@5f9d02cb]" name="killProcess" is-config="true" duration-ms="5015" started-at="2020-09-24T06:25:04Z" finished-at="2020-09-24T06:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killProcess -->
+        <test-method status="PASS" signature="QC_LOC_Payment_Default_Repo_RefinanceWithDisb_Txn_Testdata()[pri:22, instance:tests.QCStore@5f9d02cb]" name="QC_LOC_Payment_Default_Repo_RefinanceWithDisb_Txn_Testdata" duration-ms="1292381" started-at="2020-09-24T06:25:09Z" finished-at="2020-09-24T06:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QC_LOC_Payment_Default_Repo_RefinanceWithDisb_Txn_Testdata -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.QCStore@5f9d02cb]" name="getResult" is-config="true" duration-ms="547" started-at="2020-09-24T06:46:41Z" finished-at="2020-09-24T06:46:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=QC_LOC_Payment_Default_Repo_RefinanceWithDisb_Txn_Testdata status=SUCCESS method=QCStore.QC_LOC_Payment_Default_Repo_RefinanceWithDisb_Txn_Testdata()[pri:22, instance:tests.QCStore@5f9d02cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:tests.QCStore@5f9d02cb]" name="endReport" is-config="true" duration-ms="0" started-at="2020-09-24T06:46:41Z" finished-at="2020-09-24T06:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="killProcess()[pri:0, instance:tests.QCStore@5f9d02cb]" name="killProcess" is-config="true" duration-ms="5008" started-at="2020-09-24T06:46:42Z" finished-at="2020-09-24T06:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killProcess -->
+        <test-method status="PASS" signature="QC_LOC_Payment_Default_DefaultPayment_Repo_RefinanceWithDisb_Txn_Testdata()[pri:23, instance:tests.QCStore@5f9d02cb]" name="QC_LOC_Payment_Default_DefaultPayment_Repo_RefinanceWithDisb_Txn_Testdata" duration-ms="1317222" started-at="2020-09-24T06:46:47Z" finished-at="2020-09-24T07:08:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QC_LOC_Payment_Default_DefaultPayment_Repo_RefinanceWithDisb_Txn_Testdata -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:tests.QCStore@5f9d02cb]" name="endReport" is-config="true" duration-ms="0" started-at="2020-09-24T07:08:44Z" finished-at="2020-09-24T07:08:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.QCStore@5f9d02cb]" name="getResult" is-config="true" duration-ms="547" started-at="2020-09-24T07:08:44Z" finished-at="2020-09-24T07:08:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=QC_LOC_Payment_Default_DefaultPayment_Repo_RefinanceWithDisb_Txn_Testdata status=SUCCESS method=QCStore.QC_LOC_Payment_Default_DefaultPayment_Repo_RefinanceWithDisb_Txn_Testdata()[pri:23, instance:tests.QCStore@5f9d02cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="killProcess()[pri:0, instance:tests.QCStore@5f9d02cb]" name="killProcess" is-config="true" duration-ms="5012" started-at="2020-09-24T07:08:45Z" finished-at="2020-09-24T07:08:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killProcess -->
+        <test-method status="PASS" signature="QC_LOC_SignatureLoan_Runtwostatements_WaiveFee_CheckWaiveFeein2997Store_Txn_Testdata()[pri:24, instance:tests.QCStore@5f9d02cb]" name="QC_LOC_SignatureLoan_Runtwostatements_WaiveFee_CheckWaiveFeein2997Store_Txn_Testdata" duration-ms="695343" started-at="2020-09-24T07:08:50Z" finished-at="2020-09-24T07:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QC_LOC_SignatureLoan_Runtwostatements_WaiveFee_CheckWaiveFeein2997Store_Txn_Testdata -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:tests.QCStore@5f9d02cb]" name="endReport" is-config="true" duration-ms="1" started-at="2020-09-24T07:20:25Z" finished-at="2020-09-24T07:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.QCStore@5f9d02cb]" name="getResult" is-config="true" duration-ms="546" started-at="2020-09-24T07:20:25Z" finished-at="2020-09-24T07:20:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=QC_LOC_SignatureLoan_Runtwostatements_WaiveFee_CheckWaiveFeein2997Store_Txn_Testdata status=SUCCESS method=QCStore.QC_LOC_SignatureLoan_Runtwostatements_WaiveFee_CheckWaiveFeein2997Store_Txn_Testdata()[pri:24, instance:tests.QCStore@5f9d02cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- tests.QCStore -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
